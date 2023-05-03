@@ -1,10 +1,10 @@
 import classes from './homepage.module.css';
+import MainNavigation from '@/components/MainNavigation';
+
 
 function HomePage() {
   return (
-    <div>
-      <h1 className={classes.primary}>Hello World</h1>
-    </div>
+    <MainNavigation/>
   )
 
 }
