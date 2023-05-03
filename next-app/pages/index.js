@@ -1,12 +1,14 @@
-import classes from './homepage.module.css';
-import MainNavigation from '@/components/MainNavigation';
-
+import { getFeaturedEvents } from "@/dummy-data";
+import classes from "./homepage.module.css";
+import HouseList from "@/components/houses/houses-list";
+const featuredHouses = getFeaturedEvents();
 
 function HomePage() {
   return (
-    <MainNavigation/>
-  )
-
+    <div>
+      <HouseList items={featuredHouses}/>
+    </div>
+  );
 }
 
 export default HomePage;
