@@ -1,7 +1,9 @@
+import classes from './homepage.module.css';
+
 function HomePage() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <h1 className={classes.primary}>Hello World</h1>
     </div>
   )
 
