@@ -1,10 +1,11 @@
 import HouseItem from "./houses-item";
+import classes from './houses-list.module.css';
 
 function HouseList(props) {
   const { items } = props;
 
   return (
-  <ul>
+  <ul className={classes.list}>
     {items.map((house) => (
       <HouseItem
         key={house.id}
