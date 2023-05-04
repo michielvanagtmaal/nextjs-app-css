@@ -1,9 +1,9 @@
-import { getFeaturedEvents } from "../dummy-data";
+import { getFeaturedHouses } from "../dummy-data";
 import HouseList from "../components/houses/houses-list";
-const featuredHouses = getFeaturedEvents();
+const featuredHouses = getFeaturedHouses();
 
 function HomePage() {
-  const featuredHouses = getFeaturedEvents;
+  const featuredHouses = getFeaturedHouses();
 
 
   return (

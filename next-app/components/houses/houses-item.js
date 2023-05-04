@@ -3,9 +3,9 @@ import Link from "next/link";
 function HouseItem(props) {
   const { title, image, location, description, id } = props;
 
-  const formattedAddress = location.replace(", ", "hallo ");
+  const formattedAddress = location.replace(", ", " / ");
 
-  const exploreLink = `/events/${id}`;
+  const exploreLink = `/houses/${id}`;
 
   return (
     <li>
